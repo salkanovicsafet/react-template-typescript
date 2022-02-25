@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Utility class for hiding the scrollbar. Just add the class --hidden-scrollbar to use it. */
+.--hidden-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Opera and Safari */
+}
+.--hidden-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
